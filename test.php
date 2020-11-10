@@ -17,9 +17,6 @@ $nilai30Kebawah = array_filter($nilaiSiswa, function ($item) {
 });
 print_r($nilai30Kebawah);
 # nilai yang lebih dari 80
-
-
-  // ri
-  $nilaiYangLebihDari80 = array_filter($nilaiSiswa, function ($item) {
+$nilaiYangLebihDari80 = array_filter($nilaiSiswa, function ($item) {
   return $item['nilai'] <= 30;
 });
